@@ -1,47 +1,411 @@
-<html>
-<head>
-	<title>.::::[HEDSPI]::::.</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="css/login.css">
-	<style type="text/css">
-	a:visited {
-	color: #00F;
-	text-decoration: none;
-}
-    a:hover {
-	color: #FFFF99;
-	text-decoration: none;
-}
-    a:link {
-	text-decoration: none;
-}
-a:active {
-	text-decoration: none;
-}
-    </style>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Mua sách trực tuyến</title>
+        <link rel="stylesheet" type="text/css" href="css/top_header.css"/>
+        <link rel="stylesheet" type="text/css" href="css/content.css"/>
+        <link rel="stylesheet" type="text/css" href="css/left_content.css"/>
+        <link rel="stylesheet" type="text/css" href="css/middle_content.css"/>
+        <link rel="stylesheet" type="text/css" href="css/footer.css"/>
+		<style type="text/css">
+			a:link{
+				text-decoration:none;
+				color:#05b2e9;
+			}
+			a:visited {
+				color: #05b2e9;
+			}
+			a:hover {
+				color: #3C3;
+			}
+			a:active {			
+				color: #F00;
+			}
+		</style>
 </head>
-<body bgcolor="#00CCFF">
-<center>
-<img src="images/File-1414989219.png" width="1140" height="65"><br/>
-  <a href="Home_page.html" style="text-align: center; margin-top: 25px; vertical-align: middle; font-size: 24px;"><strong>muasachonline.vn</strong></a>
-</center>
-    <form action="" method="post" name="form3" class="content1">
-      <label for="textfield"></label>
-      <input name="textfield" type="text" id="textfield" size="40">
-      <input type="submit" name="Submit" id="button" value="Tìm kiếm">
-    </form>
-    <form action="" method="post" name="form2" class="content2">
-      <div align="right"><a href="Log_in.html">
-      	<input type="image" name="imageField" id="imageField" src="images/avatar-s.png">
-        	<a id="top" href="Log_in.html">Đăng nhập|Đăng ký</a>
-      </div>
-    </form>
-    <hr/>
-    <form action="" method="post" name="form1" class="content">
-      <div class="font">
-		
-	  </div>
-    </form>
+<body>
+    <div class="top">
+    	<center><a href="index.html"><img src="images/File-1414989219.png" alt="" width="1140" height="65" /></a></center>
+	</div>
+    <!--------- START HEADER----------------->
+	<div class="header">
+        <div id="homepage_icon"><a href="index.html"><abbr title="Home Page"><img src="images/Homepage_icon.jpg" width="80" height="97"/></abbr></a></div>
+	  	<div class="search_area">
+            <form>
+            	<div class="search_div"><input type="text" name="search" class="search"/></div>
+            	<input name="button" type="button" class="button" value="TÌM" />
+            </form>
+                <div class="title"><a href="index.html"><img src="images/title.png" width="261" height="35" alt="muasachonline.vn" /></a></div>
+        </div>
+		<div class="login_area">
+           	<div class="login_icon"><img src="images/login_icon.png" width="45" height="41" align="middle" /></div>
+            <div class="login_text"><a href="sign_in.html">Đăng nhập</a> | <a href="registered.html">Đăng ký</a></div>
+            <div class="hotline"><img src="images/phone_icon.jpg" width="15" height="15" /><span class="hotline_text">Hotline:</span> <span class="phone_number">1900-6035</span><span style="font-size:12px">(8-21h kể cả T7,CN)</span></div>
+        </div>
+    </div>
+    <br />
+	<hr />
+    <!--------- END HEADER ------------------>
+    <div class="main">
+    	<!----- START CONTENT --------->
+        	<div class="start">
+            	<span><a href="index.html">Trang chủ</a></span> / <strong>Mua sách trực tuyến Giảm Giá Hơn 20% - Nhà Sách HEDSPI</strong>
+            </div>
+            <!----- START left_content ------->
+            <div class="left_content">
+            	<div class="title_box1">DANH MỤC SẢN PHẨM</div>
+                <div class="left_menu1">
+                    <ul class="left_menu_content1">
+                        <li><a href="sach_tieng_anh.html">Sách Tiếng Anh</a></li>
+                        <li><a href="sach_vanhoc-tieuthuyet.html">Sách Văn Học - Tiểu Thuyết</a></li>
+                        <li><a href="#">Sách Kinh Tế</a></li>
+                        <li><a href="#">Sách Chuyên Ngành</a></li>
+                        <li><a href="#">Sách Kỹ Năng Sống - Nghệ Thuật Sống</a></li>
+                        <li><a href="#">Sách Giáo Khoa - Tham Khảo</a></li>
+                        <li><a href="#">Sách Học Ngoại Ngữ - Từ Điển</a></li>
+                        <li><a href="#">Sách Cho Tuổi Mới Lớn</a></li>
+                        <li><a href="#">Sách Truyện Thiếu Nhi</a></li>
+                        <li><a href="#">Truyện Tranh, Manga, Comic</a></li>
+                        <li><a href="#">Sách Văn Hoá - Nghệ Thuật - Du Lịch</a></li>
+                        <li><a href="#">Tạp Chí</a></li>
+                        <li style="border: none;"><a href="#">Sách Nuôi Dạy Con</a></li>
+                    </ul>
+                </div>
+                
+                <div class="title_box2">TOP BESTSELLER</div>
+                <div class="left_menu2">
+                    <ul class="left_menu_content2">
+                        <li>
+                        	<div class="book">                            	
+                                <div class="book_icon"><a href="#"><img src="images/b_a-s_ch-ngo_i.png" width="70" height="98" /></a></div>
+                                <div class="book_title"><a href="#">Cà phê cùng Tony</a></div>
+                                <div class="book_note">Tony buổi sáng</div>
+                                <div class="book_note">Bìa Mềm</div>
+                                <div class="book_sale">-31%</div>
+                                <div class="book_cost">50.000 ₫</div>
+                        	</div>
+                        </li>
+                        <li>
+                        	<div class="book">                            	
+                                <div class="book_icon"><a href="#"><img src="images/yeu-di-thoi-muon-lam-roi.jpg" width="70" height="98" /></a></div>
+                                <div class="book_title"><a href="#"><abbr title="Tập Thơ: Yêu Đi Thôi,Muộn lắm rồi">Tập Thơ: Yêu Đi Thôi,...</abbr></a></div>
+                                <div class="book_note">Nhiều Tác Giả</div>
+                                <div class="book_note">Bìa Mềm</div>
+                                <div class="book_sale">-30%</div>
+                                <div class="book_cost">42.000 ₫</div>
+                        	</div>
+                        </li>
+                        <li>
+                        	<div class="book">                            	
+                                <div class="book_icon"><a href="#"><img src="images/hoge.jpg" width="70" height="98" /></a></div>
+                                <div class="book_title"><a href="#"><abbr title="Luyện Nói Tiếng Anh Như Người Bản Địa">Luyện Nói Tiếng Anh Như ...</abbr></a></div>
+                                <div class="book_note">A.J.Hoge</div>
+                                <div class="book_note">Bìa Mềm</div>
+                                <div class="book_sale">-24%</div>
+                                <div class="book_cost">68.000 ₫</div>
+                        	</div>
+                        </li>
+                        <li>
+                        	<div class="book">                            	
+                                <div class="book_icon"><a href="#"><img src="images/nhat-ky-meo-ngoc.jpg" width="70" height="98" /></a></div>
+                                <div class="book_title"><a href="#"><abbr title="Nhật Ký Mèo Ngốc">Nhật Ký Mèo Ngốc</abbr></a></div>
+                                <div class="book_note">Mèo Mốc</div>
+                                <div class="book_note">Bìa Mềm</div>
+                                <div class="book_sale">-30%</div>
+                                <div class="book_cost">55.000 ₫</div>
+                        	</div>
+                        </li>
+                        <li>
+                        	<div class="book">                            	
+                                <div class="book_icon"><a href="#"><img src="images/bia_ai_roi_cung_khac_1.jpg" width="70" height="98" /></a></div>
+                                <div class="book_title"><a href="#"><abbr title="Ai Rồi Cũng Khác">Ai Rồi Cũng Khác</abbr></a></div>
+                                <div class="book_note">Hamlet Trương - Iris Cao</div>
+                                <div class="book_note">Bìa Mềm</div>
+                                <div class="book_sale">-25%</div>
+                                <div class="book_cost">52.000 ₫</div>
+                        	</div>
+                        </li>
+                        <li>
+                        	<div class="book">                            	
+                                <div class="book_icon"><a href="#"><img src="images/chuyen-con-meo-day-hai-au-bay.jpg" width="70" height="98" /></a></div>
+                                <div class="book_title"><a href="#"><abbr title="Chuyện Con Mèo Dạy Hải Âu Bay">Chuyện Con Mèo Dạy Hải ...</abbr></a></div>
+                                <div class="book_note">Luis Sepulveda</div>
+                                <div class="book_note">Bìa Mềm</div>
+                                <div class="book_sale">-26%</div>
+                                <div class="book_cost">26.000 ₫</div>
+                        	</div>
+                        </li>
+                        <li>
+                        	<div class="book">                            	
+                                <div class="book_icon"><a href="#"><img src="images/bookcare-40.png" width="70" height="98" /></a></div>
+                                <div class="book_title"><a href="#"><abbr title="Dịch vụ BookCare 40 quyển">Dịch vụ BookCare 40 quyển</abbr></a></div>
+                                <div class="book_note"></div>
+                                <div class="book_note">Bìa Mềm</div>
+                                <div class="book_sale"></div>
+                                <div class="book_cost">99.000 ₫</div>
+                        	</div>
+                        </li>
+                        <li>
+                        	<div class="book">                            	
+                                <div class="book_icon"><a href="#"><img src="images/o-day-bay-gio-hanh-phuc.jpg" width="70" height="98" /></a></div>
+                                <div class="book_title"><a href="#"><abbr title="Ở Đây, Bây Giờ Và Hạnh Phúc">Ở Đây, Bây Giờ Và ...</abbr></a></div>
+                                <div class="book_note">Nhiều Tác Giả</div>
+                                <div class="book_note">Bìa Mềm</div>
+                                <div class="book_sale">-20%</div>
+                                <div class="book_cost">44.000 ₫</div>
+                        	</div>
+                        </li>
+                        <li style="border: none;">
+                        	<div class="book">                            	
+                                <div class="book_icon"><a href="#"><img src="images/ben-nhau-tron-doi-.jpg" width="70" height="98" /></a></div>
+                                <div class="book_title"><a href="#"><abbr title="Bên Nhau Trọn Đời-Tái Bản 2014(Tặng kèm poster)">Bên Nhau Trọn Đời...</abbr></a></div>
+                                <div class="book_note">Cố Mạn</div>
+                                <div class="book_note">Bìa Mềm</div>
+                                <div class="book_sale">-30%</div>
+                                <div class="book_cost">62.000 ₫</div>
+                        	</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="title_box3">
+                	<img src="images/Homepage/Untitled.png" width="221" height="365" />
+                </div>
+            </div>
+            <!------- END left_content ------->
+            
+            <!------- START Middle_content ------->
+          <div class="middle_content">
+          		<!----------SÁCH MỚI-------------->
+            	<div class="title">
+                	<a href="#">Sách Mới</a><span><a href="#">Xem tất cả</a></span>
+			  	</div>
+                <div class="list_book">
+                	<div class="book">
+                    	<div class="book_icon"><a href="#"><img src="images/nuoi-duong-tre-abc.jpg" width="130" height="182" /></a></div>
+						<div class="book_title"><a href="#">Nuôi Dưỡng Trẻ ABC</a></div>
+                        <div class="book_note">Lưu Tiểu Anh</div>
+                        <div class="book_cost">36.000 ₫</div>
+                        <div class="book_note">-20%</div>
+                    </div>
+                    <div class="book">
+                    	<div class="book_icon"><a href="#"><img src="images/cham-soc-thi-luc-cho-tre.jpg" width="130" height="182" /></a></div>
+						<div class="book_title"><a href="#">Chăm Sóc Thị Lực Cho Trẻ</a></div>
+                        <div class="book_note">Trúc Quân</div>
+                        <div class="book_cost">52.000 ₫</div>
+                        <div class="book_note">-20%</div>
+                    </div>
+                    <div class="book">
+                    	<div class="book_icon"><a href="#"><img src="images/tro-choi-vuong-quyen-5a.jpg" width="130" height="182" /></a></div>
+						<div class="book_title"><a href="#">Trò Chơi Vương Quyền (Tập 5A)...</a></div>
+                        <div class="book_note">George R.R. Martin</div>
+                        <div class="book_cost">119.000 ₫</div>
+                        <div class="book_note">-20%</div>
+                    </div>
+                    <div class="book">
+                    	<div class="book_icon"><a href="#"><img src="images/the-sam-sung-way.jpg" width="130" height="182" /></a></div>
+						<div class="book_title"><a href="#">The Samsung Way - Đế Chế Công Nghệ ...</a></div>
+                        <div class="book_note">JaeYong Song - KyungMook Lee</div>
+                        <div class="book_cost">111.000 ₫</div>
+                        <div class="book_note">-20%</div>
+                    </div>
+                    <div class="book">
+                    	<div class="book_icon"><a href="#"><img src="images/phan-hon.jpg" width="130" height="182" /></a></div>
+						<div class="book_title"><a href="#">Phần Hồn</a></div>
+                        <div class="book_note">Nguyễn Mạnh Tuấn</div>
+                        <div class="book_cost">88.000 ₫</div>
+                        <div class="book_note">-20%</div>
+                    </div>
+                    <a href="#"><div class="more2">&#8250;</div></a>
+                </div>
+				<div class="clr"></div>
+                <!----------SẮP CÓ-------------->
+                <div class="title"><a href="#">Sắp Có</a><span><a href="#">Xem tất cả</a></span></div>
+                <div class="list_book">
+                	<div class="book">
+                    	<div class="book_icon"><a href="#"><img src="images/sinh-ra-de-co-don.jpg" width="130" height="182" /></a></div>
+						<div class="book_title"><a href="#">Tập Thơ: Sinh Ra Để Cô Đơn(Tặng Ch...</a></div>
+                        <div class="book_note">Nguyễn Phong Việt</div>
+                        <div class="book_cost">49.000 ₫</div>
+                        <div class="book_note">-25%</div>
+                    </div>
+                    <div class="book">
+                    	<div class="book_icon"><a href="#"><img src="images/de-kiem-tra-tieng-anh-lop-3.jpg" width="130" height="182" /></a></div>
+						<div class="book_title"><a href="#">Đề Kiểm Tra Tiếng Anh Lớp 3...</a></div>
+                        <div class="book_note">Nguyễn Thị Thu Huế</div>
+                        <div class="book_cost">36.000 ₫</div>
+                        <div class="book_note">-20%</div>
+                    </div>
+                    <div class="book">
+                    	<div class="book_icon"><a href="#"><img src="images/de-kiem-tra-tieng-anh-lop-4.jpg" width="130" height="182" /></a></div>
+						<div class="book_title"><a href="#">Đề Kiểm Tra Tiếng Anh Lớp 4...</a></div>
+                        <div class="book_note">Nguyễn Thị Thu Huế</div>
+                        <div class="book_cost">44.000 ₫</div>
+                        <div class="book_note">-20%</div>
+                    </div>
+                    <div class="book">
+                    	<div class="book_icon"><a href="#"><img src="images/hoi-ky-thuongtuong-phung-the-tai.jpg" width="130" height="182" /></a></div>
+						<div class="book_title"><a href="#">Hồi Ký Thượng Tướng Phùng Thế Tài...</a></div>
+                        <div class="book_note">Thế Kỷ (ghi)</div>
+                        <div class="book_cost">96.000 ₫</div>
+                        <div class="book_note">-20%</div>
+                    </div>
+                    <div class="book">
+                    	<div class="book_icon"><a href="#"><img src="images/anh-la-do-khon-em-yeu-anh.jpg" width="130" height="182" /></a></div>
+						<div class="book_title"><a href="#">Anh Là Đồ Khốn Nhưng... Em Yêu Anh...</a></div>
+                        <div class="book_note">Sam</div>
+                        <div class="book_cost">68.000 ₫</div>
+                        <div class="book_note">-20%</div>
+                    </div>
+					<a href="#"><div class="more2">&#8250;</div></a>
+                </div>
+                <!----------SÁCH BÌNH CHỌN-------------->
+                <div class="title"><a href="#">Sách Được Bình Chọn Nhiều Nhất</a><span><a href="#">Xem tất cả</a></span></div>
+                <div class="list_book">
+                	<div class="book">
+                    	<div class="book_icon"><a href="#"><img src="images/Homepage/tinh-kiep-tam-sinh_1.jpg" width="130" height="182" /></a></div>
+						<div class="book_title"><a href="#">Tình kiếp Tam Sinh (Tặng Kèm Poster...</a></div>
+                        <div class="book_note">Cửu Lộ Phi Hương</div>
+                        <div class="book_cost">52.000 ₫</div>
+                        <div class="book_note">-25%</div>
+                    </div>
+                    <div class="book">
+                    	<div class="book_icon"><a href="#"><img src="images/Homepage/ho-duyen.jpg" width="130" height="182" /></a></div>
+						<div class="book_title"><a href="#">Hồ Duyên</a></div>
+                        <div class="book_note">Công Tử Hoan Hỉ</div>
+                        <div class="book_cost">45.000 ₫</div>
+                        <div class="book_note">-30%</div>
+                    </div>
+                    <div class="book">
+                    	<div class="book_icon"><a href="#"><img src="images/Homepage/khoc-giua-sai-gon.jpg" width="130" height="182" /></a></div>
+						<div class="book_title"><a href="#">Khóc Giữa Sài Gòn</a></div>
+                        <div class="book_note">Nguyễn Ngọc Thạch</div>
+                        <div class="book_cost">64.000 ₫</div>
+                        <div class="book_note">-25%</div>
+                    </div>
+                    <div class="book">
+                    	<div class="book_icon"><a href="#"><img src="images/Homepage/bookcare-3.png" width="130" height="182" /></a></div>
+						<div class="book_title"><a href="#">Dịch vụ BookCare 40 quyển</a></div>
+                        <div class="book_note"></div>
+                        <div class="book_cost">99.000 ₫</div>
+                        <div class="book_note"></div>
+                    </div>
+                    <div class="book">
+                    	<div class="book_icon"><a href="#"><img src="images/Homepage/toi-tai-gioi.jpg" width="130" height="182" /></a></div>
+						<div class="book_title"><a href="#">Tôi Tài Giỏi - Bạn Cũng Thế...</a></div>
+                        <div class="book_note">Adam Khoo</div>
+                        <div class="book_cost">83.000 ₫</div>
+                        <div class="book_note">-25%</div>
+                    </div>
+					<a href="#"><div class="more2">&#8250;</div></a>
+                </div>
+                <!----------SÁCH KHUYÊN ĐỌC-------------->
+                	<div class="title"><a href="#">Sách Khuyên Đọc</a><span><a href="#">Xem tất cả</a></span></div>
+                <div class="list_book">
+                	<div class="book">
+                    	<div class="book_icon"><a href="#"><img src="images/Homepage/giong-to.jpg" width="130" height="182" /></a></div>
+						<div class="book_title"><a href="#">Việt Nam Danh Tác - Giông Tố</a></div>
+                        <div class="book_note">Vũ Trọng Phụng</div>
+                        <div class="book_cost">74.000 ₫</div>
+                        <div class="book_note">-24%</div>
+                    </div>
+                    <div class="book">
+                    	<div class="book_icon"><a href="#"><img src="images/Homepage/co-gai-mu-chu-pha-bom-nguyen-tu.jpg" width="130" height="182" /></a></div>
+						<div class="book_title"><a href="#">Cô Gái Mù Chữ Phá Bom Nguyên Tử...</a></div>
+                        <div class="book_note">Jonas Jonasson</div>
+                        <div class="book_cost">109.000 ₫</div>
+                        <div class="book_note">-25%</div>
+                    </div>
+                    <div class="book">
+                    	<div class="book_icon"><a href="#"><img src="images/Homepage/tu-duy-nhanh-va-cham_1.jpg" width="130" height="182" /></a></div>
+						<div class="book_title"><a href="#">Tư Duy Nhanh Và Chậm</a></div>
+                        <div class="book_note">Daniel Kehlmann</div>
+                        <div class="book_cost">139.000 ₫</div>
+                        <div class="book_note">-30%</div>
+                    </div>
+                    <div class="book">
+                    	<div class="book_icon"><a href="#"><img src="images/Homepage/thuong-nho-tra-long_2.jpg" width="130" height="182" /></a></div>
+						<div class="book_title"><a href="#">Thương Nhớ Trà Long</a></div>
+                        <div class="book_note">Nguyễn Nhật Ánh</div>
+                        <div class="book_cost">49.000 ₫</div>
+                        <div class="book_note">-25%</div>
+                    </div>
+                    <div class="book">
+                    	<div class="book_icon"><a href="#"><img src="images/Homepage/gia-dinh-buddenbrook.jpg" width="130" height="182" /></a></div>
+						<div class="book_title"><a href="#">Gia Đình Buddenbrook</a></div>
+                        <div class="book_note">Thomas Mann</div>
+                        <div class="book_cost">139.000 ₫</div>
+                        <div class="book_note">-25%</div>
+                    </div>
+					<a href="#"><div class="more2">&#8250;</div></a>
+                </div>
+                <!----------Thể Loại-------------->
+                <div class="title"><a href="#">Thể Loại</a><span><a href="#">Xem tất cả</a></span></div>
+                <div class="list_categories">
+                	<div class="categories">
+                    	<div class="cate_icon"><a href="#"><img src="images/Homepage/van-hoc.png" width="140" height="196" /></a></div>
+                        <div class="category"><a href="#">VĂN HỌC</a></div>
+                    </div>
+                    <div class="categories">
+                    	<div class="cate_icon"><a href="#"><img src="images/Homepage/kinh-te.png" width="140" height="196" /></a></div>
+                        <div class="category"><a href="#">KINH TẾ</a></div>
+                    </div>
+                    <div class="categories">
+                    	<div class="cate_icon"><a href="#"><img src="images/Homepage/teen.png" width="140" height="196" /></a></div>
+                        <div class="category"><a href="#">TEEN</a></div>
+                    </div>
+                    <div class="categories">
+                    	<div class="cate_icon"><a href="#"><img src="images/Homepage/thieu-nhi.png" width="140" height="196" /></a></div>
+                        <div class="category"><a href="#">THIẾU NHI</a></div>
+                    </div>
+                    <div class="categories">
+                    	<div class="cate_icon"><a href="#"><img src="images/Homepage/ngoai-ngu.png" width="140" height="196" /></a></div>
+                        <div class="category"><a href="#">NGOẠI NGỮ - TỪ ĐIỂN</a></div>
+                    </div>
+                    <div class="categories">
+                    	<div class="cate_icon"><a href="#"><img src="images/Homepage/doi-song.png" width="140" height="196" /></a></div>
+                        <div class="category"><a href="#">THƯỜNG THỨC - ĐỜI SỐNG</a></div>
+                    </div>
+                    <div class="categories">
+                    	<div class="cate_icon"><a href="#"><img src="images/Homepage/song-dep.png" width="140" height="196" /></a></div>
+                        <div class="category"><a href="#">KỸ NĂNG - SỐNG ĐẸP</a></div>
+                    </div>
+                    <div class="categories">
+                    	<div class="cate_icon"><a href="#"><img src="images/Homepage/chuyen-nganh.png" width="140" height="196" /></a></div>
+                        <div class="category"><a href="#">SÁCH CHUYÊN NGÀNH</a></div>
+                    </div>
+                </div>
+                 <!----------TÁC GIẢ TIÊU BIỂU-------------->
+                 <div class="title"><a href="#">Tác Giả Tiêu Biểu : Lâm Minh Chánh</a></div>
+                <div class="list_book">
+                	<div class="author_pic"><img src="images/Homepage/Lâm-Minh-Chánh.jpg" width="176" height="247" /></div>
+                    <div class="info">Doanh nhân – Tác giả Lâm Minh Chánh có 24 năm trải nghiệm: 18 năm làm quản lý cấp cao cho các tập đoàn Kodad, AIA, Prudential, Chứng khoán DVSC, và 6 năm làm doanh nhân, nhà đầu tư. Ông là người đồng sáng lập sàn giao dịch Vàng Thế Giới, chuỗi Trung tâm Toán tư duy Hoa Kỳ Mathnasium, Công ty Kiến trúc và xây dựng Nhà Vui. Hiện ông đang đầu tư lãnh vực giáo dục, thương mại điện tử.
+                            
+                            <br /><br />Ông là một giảng viên về quản trị, tài chính và là cộng tác viên cho các báo kinh tế. Cuốn sách “Tăng tốc đến thành công - Tập 1” là tác phẩm đầu tay của bộ sách 4 cuốn, mỗi cuốn tóm tắt 25 cuốn sách kinh doanh hàng đầu của thế giới.
+                    </div>
+            	</div>
+                <div class="title1">Mua Sách Online Tại Hedspi.vn</div>
+                <div class="title1_info">
+                	Với khẩu hiệu Niềm Vui Mua Sắm Hedspi.vn hiện là​ ​website ​thương mại điện tử​ đa ngành dẫn đầu về dịch vụ <strong>mua sách trực tuyến</strong> (đặt sách online, giao hàng tận nơi)​. Khi mua sách qua mạng khách hàng nhận được những lợi ích của dịch vụ bán sách online của <strong>nhà sách trên mạng Hedspi</strong>:
+                    <br /><br /><span> ✓ </span>Tiết kiệm: khách hàng được mua sách online giá rẻ hơn 20% trở lên (áp dụng với 90% sách tại Hedspi.vn)</span>
+                    <br />✓ Tìm kiếm: dễ dàng tìm kiếm sách mới, truyện mới và tham khảo đánh giá sách từ các độc giả khác.
+                    <br />✓ Giao hàng tận nơi: khi mua sách online ở TP.HCM Hà Nội và tất cả các tỉnh trên toàn quốc.
+                </div>
+            <!------- END Middle_content ------->
+        </div>
+	</div>
+        <div class="clr"></div>
+        <!--------------- FOOTER ------------------>
+		<div class="footer">
+       		<div class="leter_icon"><img src="images/Homepage/icon_sign.png" width="25" height="25" /></div>
+			<span id="footer_title">Đăng Kí Nhận Bản Tin Hedspi - <span style="font-weight:normal">Nhiều Tiện Lợi và Ưu Đãi đang chờ bạn!</span></span>
+        	<div class="hand_icon"><img src="images/Homepage/hand-right-128.png" width="40" height="40" /></div>
+        	<form>
+            	<div class="input"><input type="text" name="input" class="input_class"/></div>
+            	<input name="button" type="button" class="button_class" value="Đăng Ký - Nhận Tiện Ích" />
+            </form>
+             <div class="clr"></div>
+            <p>© Đại Học Bách Khoa Hà Nội<br /><br />Lớp Thực Hành Cơ Sở Dữ Liệu - Việt Nhật B- K57<br />Thành viên: Ngô Văn Thịnh, Trần Bảo Huy, Đặng Mỹ Linh, Đồng Xuân Mạnh</p>
+        </div>
 </body>
 </html>
